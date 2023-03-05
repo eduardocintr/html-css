@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  align-items: center;
+  height: 8vh;
+}
+
+#logo-obc {
+  max-width: 5vh;
+}
+
+#logo-obc2 {
+  max-width: 30vh;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1vhem;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.4s;
+}
+
+a:hover {
+  border: 1px solid #CA0136;
+}
+
+@media (max-width: 420px) {
+  header {
+    flex-wrap: wrap;
+    height: 16vh;
+  }
+}
